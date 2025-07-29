@@ -1,0 +1,59 @@
+name: locofest_new
+description: A new Flutter project.
+version: 3.29.3
+
+# Prevent accidental publishing to pub.dev
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  cloud_firestore: any
+  table_calendar: any
+  cupertino_icons: any
+  firebase_auth: any
+  shared_preferences: any
+  uuid: any
+  flutter_stripe: any
+  http: any
+  firebase_messaging: any
+  flutter_localizations:
+    sdk: flutter
+  firebase_storage: any
+  image_picker: any
+  provider: any
+  url_launcher: any
+  flutter_slidable: any
+  fl_chart: any
+  auto_size_text: any
+  device_info_plus: any
+  flutter_image_compress: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+  flutter_launcher_icons: any
+  flutter_native_splash: any
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter_native_splash:
+  color: "#f6f6f3"
+  image: assets/icon/icon.png
+  android: true
+  ios: true
+  web: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/icon.png
